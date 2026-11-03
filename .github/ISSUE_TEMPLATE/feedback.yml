@@ -1,0 +1,40 @@
+name: Beta feedback
+description: Report a failure or share your reading experience
+title: "[Beta] "
+body:
+  - type: input
+    id: build
+    attributes:
+      label: Beta version / build
+      placeholder: 0.1.0-beta.1.d3e9c447222d
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS version
+      placeholder: Android phone model and Android version, or Windows version
+    validations:
+      required: true
+  - type: dropdown
+    id: format
+    attributes:
+      label: Publication format
+      options: [EPUB, CBZ, CBR, CB7, PDF, MOBI, AZW3, FB2, Other, Not applicable]
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps, expected result and actual result
+      description: Include whether restarting or airplane mode changes the result. Do not attach private books or credentials.
+    validations:
+      required: true
+  - type: dropdown
+    id: sync
+    attributes:
+      label: Which sync options do you actually use? (optional)
+      multiple: true
+      options: [Local reading only, Folio cloud, Google Drive, WebDAV, S3, KOReader]
+  - type: textarea
+    id: experience
+    attributes:
+      label: Reading experience and the one thing to fix first (optional)
