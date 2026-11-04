@@ -2,20 +2,20 @@
 
 A local-first book and comic reader. This repository distributes beta binaries and collects feedback. Application source is maintained privately.
 
-## Download beta 0.1.0-beta.2
+## Download beta 0.1.0-beta.3
 
-- [Windows x64 portable app](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/Folio-0.1.0-beta.2-windows-x64.exe)
-- [Android ARM64 APK — most phones](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/Folio-0.1.0-beta.2-android-arm64-debug.apk)
-- [Android x86_64 APK — emulator](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/Folio-0.1.0-beta.2-android-x86_64-debug.apk)
-- [SHA-256 checksums](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/SHA256SUMS.txt) · [Build manifest](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/manifest.json)
+- [Windows x64 portable app](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.3/Folio-0.1.0-beta.3-windows-x64.exe)
+- [Android ARM64 APK — most phones](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.3/Folio-0.1.0-beta.3-android-arm64-debug.apk)
+- [Android x86_64 APK — emulator](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.3/Folio-0.1.0-beta.3-android-x86_64-debug.apk)
+- [SHA-256 checksums](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.3/SHA256SUMS.txt) · [Build manifest](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.3/manifest.json)
 
 Windows needs WebView2; the portable executable is unsigned. Android APKs are debug signed for sideloading and require Android 7 or later. They use a separate Folio Beta identity and library, so your existing Folio installation is not replaced. Export/import a Folio backup if you want to transfer a library.
 
-Windows and Android x86_64 have runtime checks. The ARM64 APK also passed reading and offline cold-restart checks on a Samsung Galaxy S24+ (SM-S926B), Android 17. Test publications covered EPUB, CBZ, CBR, CB7 and PDF. This is one phone; readers' own files, the phone's file picker, backup workflows and longer reading sessions still need feedback. iOS, store distribution, Windows signing and store purchases remain outside this beta's validation.
+Windows and Android x86_64 have runtime checks. ARM64 is compiled and structurally checked; testing on physical phones is the next priority. iOS, store distribution, Windows signing and store purchases remain outside this beta's validation.
 
 ## What to try
 
-Import an EPUB, comic or PDF; read a few pages; close/reopen the app; try airplane mode; resume reading; export and restore a backup. No account or paid subscription is required for local reading. Existing sync/AI features are optional and not the focus of this beta round.
+Import an EPUB, comic or PDF; read a few pages; close/reopen the app; try airplane mode; resume reading; export and restore a backup. No account or paid subscription is required for local reading. Cloud sync and cloud saving are enabled. Sign in to use the free 500 MB allowance; Pro offers 10 GB, and Premium adds AI reading tools. From Settings > Sync > Cloud sync, use Plans & billing in browser to subscribe or manage billing. Sign in with the same email in the browser, then return to the app and refresh your plan status. Payments use the live provider; completing checkout creates a real paid subscription.
 
 [Report a problem or share feedback](https://github.com/JPClow3/folio-beta/issues/new/choose). Include the beta build, device/OS, file format, steps and expected/actual result. Never include passwords, access keys or private publication files.
 
@@ -27,4 +27,4 @@ Turning reports off cancels pending sends and clears saved crash markers. Alread
 
 The beta feedback form asks which sync option you actually use. All existing backends remain available while feedback is collected; none is being removed based on guesses.
 
-Source commit: `c6a7dc7c64603cc7dc1e2281b4787cd221cc3bdd`. Build: `0.1.0-beta.2.c6a7dc7c6460` · Offline shell: `a224e78ae28c249f788f5673`.
+Source commit: `0e7b0d675991c64e2e7727cc49ae15828b9042cd`. Build: `0.1.0-beta.3.0e7b0d675991` · Offline shell: `a832c0ca4db2b8917b803999`.
