@@ -11,7 +11,7 @@ A local-first book and comic reader. This repository distributes beta binaries a
 
 Windows needs WebView2; the portable executable is unsigned. Android APKs are debug signed for sideloading and require Android 7 or later. They use a separate Folio Beta identity and library, so your existing Folio installation is not replaced. Export/import a Folio backup if you want to transfer a library.
 
-Windows and Android x86_64 have runtime checks. ARM64 is compiled and structurally checked; testing on physical phones is the next priority. Physical-phone performance, iOS, store distribution, Windows signing and store purchases are outside this beta's validation.
+Windows and Android x86_64 have runtime checks. The ARM64 APK also passed reading and offline cold-restart checks on a Samsung Galaxy S24+ (SM-S926B), Android 17. Test publications covered EPUB, CBZ, CBR, CB7 and PDF. This is one phone; readers' own files, the phone's file picker, backup workflows and longer reading sessions still need feedback. iOS, store distribution, Windows signing and store purchases remain outside this beta's validation.
 
 ## What to try
 
