@@ -2,12 +2,12 @@
 
 A local-first book and comic reader. This repository distributes beta binaries and collects feedback. Application source is maintained privately.
 
-## Download beta 0.1.0-beta.1
+## Download beta 0.1.0-beta.2
 
-- [Windows x64 portable app](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.1/Folio-0.1.0-beta.1-windows-x64.exe)
-- [Android ARM64 APK — most phones](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.1/Folio-0.1.0-beta.1-android-arm64-debug.apk)
-- [Android x86_64 APK — emulator](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.1/Folio-0.1.0-beta.1-android-x86_64-debug.apk)
-- [SHA-256 checksums](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.1/SHA256SUMS.txt) · [Build manifest](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.1/manifest.json)
+- [Windows x64 portable app](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/Folio-0.1.0-beta.2-windows-x64.exe)
+- [Android ARM64 APK — most phones](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/Folio-0.1.0-beta.2-android-arm64-debug.apk)
+- [Android x86_64 APK — emulator](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/Folio-0.1.0-beta.2-android-x86_64-debug.apk)
+- [SHA-256 checksums](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/SHA256SUMS.txt) · [Build manifest](https://github.com/JPClow3/folio-beta/releases/download/v0.1.0-beta.2/manifest.json)
 
 Windows needs WebView2; the portable executable is unsigned. Android APKs are debug signed for sideloading and require Android 7 or later. They use a separate Folio Beta identity and library, so your existing Folio installation is not replaced. Export/import a Folio backup if you want to transfer a library.
 
@@ -27,4 +27,4 @@ Turning reports off cancels pending sends and clears saved crash markers. Alread
 
 The beta feedback form asks which sync option you actually use. All existing backends remain available while feedback is collected; none is being removed based on guesses.
 
-Build: `0.1.0-beta.1.d3e9c447222d` · Offline shell: `40ef3f4eec37550a54fef2de`.
+Source commit: `c6a7dc7c64603cc7dc1e2281b4787cd221cc3bdd`. Build: `0.1.0-beta.2.c6a7dc7c6460` · Offline shell: `a224e78ae28c249f788f5673`.
