@@ -6,14 +6,14 @@ body:
     id: build
     attributes:
       label: Beta version / build
-      placeholder: 0.1.0-beta.6.61e1648dc12b
+      placeholder: 0.1.0-beta.7.9d36cf5847ce
     validations:
       required: true
   - type: input
     id: device
     attributes:
       label: Device and OS version
-      placeholder: Android phone model and Android version, or Windows version
+      placeholder: Android phone model and Android version, Windows version, or Linux distro
     validations:
       required: true
   - type: dropdown
